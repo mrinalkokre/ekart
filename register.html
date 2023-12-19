@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EKart|Products</title>
+    <link rel="stylesheet" href="static\css\bootstrap.min.css">
+    <style>
+        .box{
+            border-style: solid;
+            height: 250px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <br><br><br>
+      <div class="row mt-5">
+        <div class="col-md-4 mt-5 mx-auto shadow p-5">
+          <h2 class="mb-5 text-center">User Registration</h2>
+          <form name="f1" method="POST" action="">
+              <div class="mb-3">
+                  <label for="Input1" class="form-label"><strong>Username:</strong></label>
+                  <input type="email" class="form-control" id="Input1" name="uname" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="Input2" class="form-label"><strong>Password:</strong></label>
+                  <input type="password" class="form-control" id="Input2" name="upass" placeholder="password">
+                </div>
+                <div class="mb-3">
+                  <label for="Input3" class="form-label"><strong>Confirm Password:</strong></label>
+                  <input type="password" class="form-control" id="Input3" name="ucpass" placeholder="confirm password">
+                </div>
+                <div class="mb-3">
+                  <input type="submit" class="btn btn-danger" value="Register">
+                  Alredy User?&nbsp;&nbsp;<a href="login.html" style="text-decoration: none;">Login</a>
+                </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/popper.js"> </script>
+  </body>
+</html>
